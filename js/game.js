@@ -28,7 +28,7 @@ const config = {
 const game = new Phaser.Game(config);
 
 // Load scene
-// NOTE: rermber any "key" is global and can not be reused
+// NOTE: remember any "key" is global and can not be reused
 game.scene.add('splashScene', splashScene);
 
 //start Title
