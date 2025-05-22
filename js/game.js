@@ -1,10 +1,9 @@
 // Copyright (c) 2020 Mr. Coxall All rights reserved
-//
-// Created by: SHEM
+
+// Created by: shem
 // Created on: May 2020
 // This file contains the JS functions for index.html
 /* global Phaser */
-//* Game scene
 
 import SplashScene from './splashScene.js';
 // the game scenes
