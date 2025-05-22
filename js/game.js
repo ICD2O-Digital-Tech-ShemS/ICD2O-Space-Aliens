@@ -6,7 +6,7 @@
 /* global Phaser */
 //* Game scene
 
-import splashScene from "./splashScene"
+import splashScene from "./splashScene.js"
 // This is our game scene
     const splashScene = new splashScene()
 const config = {
