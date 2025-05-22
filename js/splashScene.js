@@ -24,7 +24,7 @@ class SplashScene extends Phaser.Scene {
     }
 
     update(time, delta) {
-        this.Scene.switch('titleScene')
+        this.scene.switch('titleScene')
     }
 }
     export default SplashScene
