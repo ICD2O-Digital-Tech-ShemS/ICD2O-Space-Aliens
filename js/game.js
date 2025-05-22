@@ -22,7 +22,7 @@ const config = {
             debug: true
         }
     },
-    backgroundColor: 0x5f6e7a,
+    backgroundColor: 0xffffff,
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH,
@@ -33,6 +33,6 @@ const game = new Phaser.Game(config);
 //Load the scenes
 //Any "key" is global and cannot be reused
 game.scene.add('splashScene', splashScene);
-game.scene.add('titleScene',titleScene);
+game.scene.add('titleScene', titleScene);
 //Start title scene
 game.scene.start('splashScene');
