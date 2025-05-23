@@ -11,7 +11,7 @@ class TitleScene extends Phaser.Scene {
         super({ key: 'titleScene' });
         this.titleSceneBackgroundImage = null
         this.titleSceneText = null
-        this.titleSceneTextStyle = { font: '150px Arial', fill: '#fde4b9', align: 'center'}
+        this.titleSceneTextStyle = { font: '200px Arial', fill: '#fde4b9', align: 'center'}
     }
 
 
@@ -27,7 +27,7 @@ class TitleScene extends Phaser.Scene {
         this.titleSceneBackground = this.add.sprite(0, 0, 'titleSceneBackground').setScale(3.75)
         this.titleSceneBackground.x = 1920 / 2
         this.titleSceneBackground.y = 1080 / 2
-        this.titleSceneText = this.add.text(1920 / 2, (1080 / 2) + 350, 'Space Aliens')
+        this.titleSceneText = this.add.text(1920 / 2, (1080 / 2) + 350, 'Space Aliens', this.titleSceneTextStyle)
     }
     update (time, delta) { 
     }
